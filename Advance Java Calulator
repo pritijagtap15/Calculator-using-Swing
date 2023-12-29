@@ -37,7 +37,9 @@ class abc extends JFrame implements ActionListener{
         b2.addActionListener(this);
         b3.addActionListener(this);
         b4.addActionListener(this);
+        add(l0);
         add(t1);
+        add(l);
         add(t2);
         add(b1);
         add(b2);
